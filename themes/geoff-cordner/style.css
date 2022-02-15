@@ -16,6 +16,87 @@ Geoff Cordner WordPress Theme, (C) 2022 Geoff Cordner
 
 */
 
-.has-small-font-size {
-    font-size: 0.8rem;
+.front-page {
+    /*background-color: lightyellow;*/
+    max-width: 600px;
+    margin: auto;
+    /*margin-top: 75px !important;*/
+}
+
+.front-page h1 {
+    margin-top: 0px;
+    font-size: var(--wp--custom--typography--font-size--gigantic);
+}
+
+footer {
+    /*position: fixed;*/
+    bottom: 0px;
+    width: 100%;
+}
+
+.wp-block-social-link {
+    margin: -10px !important;
+}
+
+
+/*
+.wp-block-social-links:not(.is-style-logos-only) .wp-social-link-twitter {
+    background-color: var(--wp--preset--color--background);
+    color: var(--wp--preset--color--foreground) !important;
+}
+
+.wp-block-social-links:not(.is-style-logos-only) .wp-social-link-twitter:hover {
+    background-color: var(--wp--preset--color--foreground);
+    color: var(--wp--preset--color--background) !important;
+}
+
+.wp-block-social-links:not(.is-style-logos-only) .wp-social-link-instagram {
+    background-color: var(--wp--preset--color--background);
+    color: var(--wp--preset--color--foreground) !important;
+}
+
+.wp-block-social-links:not(.is-style-logos-only) .wp-social-link-instagram:hover {
+    background-color: var(--wp--preset--color--foreground);
+    color: var(--wp--preset--color--background) !important;
+}
+
+.wp-block-social-links:not(.is-style-logos-only) .wp-social-link-linkedin {
+    background-color: var(--wp--preset--color--background);
+    color: var(--wp--preset--color--foreground) !important;
+}
+
+.wp-block-social-links:not(.is-style-logos-only) .wp-social-link-linkedin:hover {
+    background-color: var(--wp--preset--color--foreground);
+    color: var(--wp--preset--color--background) !important;
+}
+*/
+
+.wp-block-social-links:not(.is-style-logos-only) .wp-social-link-twitter {
+    background-color: var(--wp--preset--color--background);
+    color: var(--wp--preset--color--foreground) !important;
+}
+
+.wp-block-social-links:not(.is-style-logos-only) .wp-social-link-twitter:hover {
+    background-color: #1da1f2;
+    color: var(--wp--preset--color--background) !important;
+}
+
+.wp-block-social-links:not(.is-style-logos-only) .wp-social-link-instagram {
+    background-color: var(--wp--preset--color--background);
+    color: var(--wp--preset--color--foreground) !important;
+}
+
+.wp-block-social-links:not(.is-style-logos-only) .wp-social-link-instagram:hover {
+    background-color: #f00075;
+    color: var(--wp--preset--color--background) !important;
+}
+
+.wp-block-social-links:not(.is-style-logos-only) .wp-social-link-linkedin {
+    background-color: var(--wp--preset--color--background);
+    color: var(--wp--preset--color--foreground) !important;
+}
+
+.wp-block-social-links:not(.is-style-logos-only) .wp-social-link-linkedin:hover {
+    background-color: #0d66c2;
+    color: var(--wp--preset--color--background) !important;
 }
