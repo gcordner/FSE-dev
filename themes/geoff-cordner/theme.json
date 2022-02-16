@@ -29,6 +29,13 @@
             "postTypes": [
                 "page"
             ]
+        },
+        {
+            "name": "front-page",
+            "title": "Front Page",
+            "postTypes": [
+                "page"
+            ]
         }
     ],
     "settings": {
@@ -368,6 +375,11 @@
             "name": "footer-v2",
             "title": "Footer V2",
             "area": "footer"
+        },
+        {
+            "name": "social-icons",
+            "title": "Social Icons",
+            "area": "uncategorized"
         }
     ]
 }
